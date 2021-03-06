@@ -1,0 +1,7 @@
+C:\Users\liron\Source\Repos\WaitHandle_and_Tasks\WaitHandle_and_Tasks\bin\Debug\WaitHandle_and_Tasks.exe.config
+C:\Users\liron\Source\Repos\WaitHandle_and_Tasks\WaitHandle_and_Tasks\bin\Debug\WaitHandle_and_Tasks.exe
+C:\Users\liron\Source\Repos\WaitHandle_and_Tasks\WaitHandle_and_Tasks\bin\Debug\WaitHandle_and_Tasks.pdb
+C:\Users\liron\Source\Repos\WaitHandle_and_Tasks\WaitHandle_and_Tasks\obj\Debug\WaitHandle_and_Tasks.csprojAssemblyReference.cache
+C:\Users\liron\Source\Repos\WaitHandle_and_Tasks\WaitHandle_and_Tasks\obj\Debug\WaitHandle_and_Tasks.csproj.CoreCompileInputs.cache
+C:\Users\liron\Source\Repos\WaitHandle_and_Tasks\WaitHandle_and_Tasks\obj\Debug\WaitHandle_and_Tasks.exe
+C:\Users\liron\Source\Repos\WaitHandle_and_Tasks\WaitHandle_and_Tasks\obj\Debug\WaitHandle_and_Tasks.pdb

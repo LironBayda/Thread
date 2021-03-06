@@ -1,0 +1,26 @@
+WaitHandle and Tasks-H.W.
+
+
+1. Manual reset event is something we can use to make threads communicate with each other and lets us "close the gate" in front of threads. When we use Manual reset event. WaitOne() in a thread (or threads)  the thread pauses and waits  to a thread that will call to set() function. When the set() function invoked all the waiting threads return to the place where they was. If we put time inside WaitOne function -WaitOne(2)- the thread waits 2 seconds to set()  function to be called and then continues even if set() doesn't called.
+Auto rest event is very similar to  Manual reset event, the difference between them is the operation of set() function. In "auto reset event", when set() function is invoked only one thread become active
+The differences between Manual reset event Auto rest event and pulse and wait are:
+Is that pulse and wait must invoked from critical section that locked with the same key and Manual reset event and Auto rest event doesn't, and there is the mechanism with the key that pulse and wait pulse and wait
+Manual reset event Auto rest event inherit from System.Threading.WaitHandle
+2. With Reset()
+3. With set()
+4. put time inside WaitOne-WaitOne(2)
+5. Task is asynchronous operation. It usually operate on thread from the thread pool. It is easy way to do asynchronous work. A Task is a higher level concept than Thread. The differences between them:
+a. The task can return a result
+b. Task supports cancellation through the use of cancellation tokens
+c.   A task can have multiple processes happening at the same time. Threads can only have one task running at a time.
+d. While using thread if we get the exception in the long running method it is not possible to catch the exception in the parent function but the same can be easily caught if we are using tasks.
+e. A task is by default a background task. You cannot have a foreground task. On the other hand a thread can be background or foreground.
+7. retun result: Task<TResult> ourThread
+pull result: ourThread.Result
+8. Task.WaitAll- Waits for all of the provided Task objects to complete execution.
+Task.WaitAny- Waits for any of the provided Task objects to complete execution.
+9. Task Parallel Library- library of parallel thread. 
+
+
+
+
