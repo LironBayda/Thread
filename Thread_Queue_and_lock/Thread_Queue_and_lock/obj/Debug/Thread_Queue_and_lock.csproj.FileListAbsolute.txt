@@ -1,0 +1,7 @@
+C:\Users\liron\Source\Repos\Thread_Queue_and_lock\Thread_Queue_and_lock\bin\Debug\Thread_Queue_and_lock.exe.config
+C:\Users\liron\Source\Repos\Thread_Queue_and_lock\Thread_Queue_and_lock\bin\Debug\Thread_Queue_and_lock.exe
+C:\Users\liron\Source\Repos\Thread_Queue_and_lock\Thread_Queue_and_lock\bin\Debug\Thread_Queue_and_lock.pdb
+C:\Users\liron\Source\Repos\Thread_Queue_and_lock\Thread_Queue_and_lock\obj\Debug\Thread_Queue_and_lock.csprojAssemblyReference.cache
+C:\Users\liron\Source\Repos\Thread_Queue_and_lock\Thread_Queue_and_lock\obj\Debug\Thread_Queue_and_lock.csproj.CoreCompileInputs.cache
+C:\Users\liron\Source\Repos\Thread_Queue_and_lock\Thread_Queue_and_lock\obj\Debug\Thread_Queue_and_lock.exe
+C:\Users\liron\Source\Repos\Thread_Queue_and_lock\Thread_Queue_and_lock\obj\Debug\Thread_Queue_and_lock.pdb

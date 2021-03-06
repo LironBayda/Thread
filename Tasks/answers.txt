@@ -1,0 +1,33 @@
+Tasks h.w.
+
+1. StartNew.Factory.Task , Run.T
+1.the goal of the to function is to start a task. The first function  have more option the second function is simpler from the first
+If we wirte:
+Task.Run(someAction);
+that’s exactly equivalent to:
+Task.Factory.StartNew(someAction,
+    CancellationToken.None, TaskCreationOptions.DenyChildAttach, TaskScheduler.Default);
+2. the goal of continuewith is to let us run task after task. If we want that the second task will run only when certain conditions will be true we can use continueWith  with continuationOptions-Options for when the continuation is scheduled and how it behaves. This includes criteria, such as OnlyOnCanceled, as well as execution options, such as ExecuteSynchronously.
+
+3. Task. For my opnion we need to get task from continueWith because it let us check the status of the last task and the result if exsit.
+4. dependency injection happen when  an object receives other objects that it depends on. 
+5.the mechanism to teak cancellation is:
+a.create CancellationTokenSource –say called src
+
+b.pass the CancellationToken to the task.( src.Token)
+c. in the task throw exception if the token cancel using ThrowIfCancellationRequested. You can use while loop to check it more then one time.
+d. cancellation- write  src.cancel (before the task pass the ThrowIfCancellationRequested- after src.cancel invoked,when the ThrowIfCancellationRequested, 
+exception will be thrown and the task will be cancelled)
+
+6. We need to use cancelToken.ThrowIfCancellationRequested() function to check whether the cancelation token canceled or not
+7. Throws a OperationCanceledException if this token has had cancellation requested
+8. AggregateException  is exception that wraps other exception or exceptions  .AggregateException is used to consolidate multiple failures into a single, throwable exception object.  I think that this exception was chosen to deal with tasks exceptions because only one exception instance can be thrown on a given thread at a given time, Threads are executes in parallel and therefore we need something that will combine all exception together
+9. A task is an object that represents some work that should be done. It use thread but it doesn’t thread therefore it can be programed in a way that doesn't make the system crash if there is exception.
+10.            task1.Exception.InnerException.Message
+
+11. the program will carsh.
+
+
+
+
+

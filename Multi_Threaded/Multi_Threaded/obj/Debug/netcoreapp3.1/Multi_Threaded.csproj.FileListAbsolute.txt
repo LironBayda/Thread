@@ -1,0 +1,13 @@
+C:\Users\liron\Source\Repos\Multi_Threaded\Multi_Threaded\bin\Debug\netcoreapp3.1\Multi_Threaded.exe
+C:\Users\liron\Source\Repos\Multi_Threaded\Multi_Threaded\bin\Debug\netcoreapp3.1\Multi_Threaded.deps.json
+C:\Users\liron\Source\Repos\Multi_Threaded\Multi_Threaded\bin\Debug\netcoreapp3.1\Multi_Threaded.runtimeconfig.json
+C:\Users\liron\Source\Repos\Multi_Threaded\Multi_Threaded\bin\Debug\netcoreapp3.1\Multi_Threaded.runtimeconfig.dev.json
+C:\Users\liron\Source\Repos\Multi_Threaded\Multi_Threaded\bin\Debug\netcoreapp3.1\Multi_Threaded.dll
+C:\Users\liron\Source\Repos\Multi_Threaded\Multi_Threaded\bin\Debug\netcoreapp3.1\Multi_Threaded.pdb
+C:\Users\liron\Source\Repos\Multi_Threaded\Multi_Threaded\obj\Debug\netcoreapp3.1\Multi_Threaded.csprojAssemblyReference.cache
+C:\Users\liron\Source\Repos\Multi_Threaded\Multi_Threaded\obj\Debug\netcoreapp3.1\Multi_Threaded.csproj.CoreCompileInputs.cache
+C:\Users\liron\Source\Repos\Multi_Threaded\Multi_Threaded\obj\Debug\netcoreapp3.1\Multi_Threaded.AssemblyInfoInputs.cache
+C:\Users\liron\Source\Repos\Multi_Threaded\Multi_Threaded\obj\Debug\netcoreapp3.1\Multi_Threaded.AssemblyInfo.cs
+C:\Users\liron\Source\Repos\Multi_Threaded\Multi_Threaded\obj\Debug\netcoreapp3.1\Multi_Threaded.dll
+C:\Users\liron\Source\Repos\Multi_Threaded\Multi_Threaded\obj\Debug\netcoreapp3.1\Multi_Threaded.pdb
+C:\Users\liron\Source\Repos\Multi_Threaded\Multi_Threaded\obj\Debug\netcoreapp3.1\Multi_Threaded.genruntimeconfig.cache

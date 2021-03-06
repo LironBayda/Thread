@@ -1,0 +1,18 @@
+Thread locks and Monitor-H.W.
+
+1.  Suspend() suspend the thread and Resume() resume it. We use those two function together . advantages: we can use the same thread more then one time in different part of the code- we can start the thread, suspend it do other things and then use it again without the need to create two thread and divide the work between them 
+It deprecate because it deadlock prone- if we suspend thread while it holds a key. No other thread can use the key until the thread resume and complete the critical section. This is can cause to deadlock situation.
+2. Wait- we use it in critical section. It cause to the thread that coming to the critical section to "give back" the key and go to "waiting room" until pulse function would be called.
+Pulse-when invoked, one thread from the waiting room returns to the code ( After the wait function)
+Pulse all-when invoked, all threads from the waiting room return to the code ( After the wait function)
+3. A race condition occurs when two or more threads are able to access shared data and they try to change it at the same time. Because the thread scheduling algorithm can swap between threads at any point, we cannot know the order at which the threads will attempt to access the shared data. Therefore, the result of the change in data is dependent on the thread scheduling algorithm.
+4. a deadlock is a state in which each member of a group waits for another member, including itself, to take action for example we have two thread and two keys and we write a code that make each thread use one different key and then use the other one. When started, each thread would take a key and then would be stuck because the other key wouldn’t be free.
+5. Wait and pulse need to be invoked from critical sections, and the critical sections needs to be lock with the same key. Wait function should be invoke before pulse function (If the pulse function is invoked before wait function nothing would happen and the thread from whom the wait function was invoked would remain in the waiting room)
+6. Design patterns are  a collection of  solution for frequent problem in software world. For example   Iterator is design pattern. There is 23 design pattern 
+Gang of four are:  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides. They the four authors of the book of the design patterns
+7.we use Singleton design pattern when we want only one copy of class.
+8. An implementation of the singleton pattern must
+•	ensure that only one instance of the singleton class ever exists; and
+•	provide global access to that instance.
+And should be thread safe
+if we make the constructor protected instead of private the singleton will be still valid. the advantage of doing so is that other classes can inherit from the singleton

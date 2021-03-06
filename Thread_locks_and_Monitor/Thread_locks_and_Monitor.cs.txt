@@ -1,0 +1,48 @@
+//9.
+//A singleton class should have public visibility 
+    //so that complete application can use 
+    
+public class IsrealTime 
+    {
+
+        //static instance of class globally accessible 
+        private static IsrealTime instance;
+
+       static public IsrealTime GetInstance()
+
+        {
+            object key =new object();
+            if (instance == null)
+            {
+                lock (key)
+                {
+                    if (instance == null)
+                    {
+                        instance = new IsrealTime(); 
+                    }
+                }
+
+            }
+
+            return instance;
+
+        }
+
+
+
+        protected IsrealTime()
+        {
+            // protected constructor so that class 
+            //cannot be instantiated from outside 
+            //this class 
+
+        }
+
+
+       public void GetTime()
+        {
+
+            Console.WriteLine($"Time in Isreal {DateTime.Now}");
+        }
+    }
+

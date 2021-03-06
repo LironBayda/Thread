@@ -1,0 +1,21 @@
+H.W.  -  Delegate and event 1
+1. A delegate is a type that represents references to methods with a particular parameter list and return type.
+2. A delegate declaration basically declares a method signature, which only includes information about its parameters and return type. And since the same delegate can point to both static and instance methods, it doesn't make sense to make the method signature itself static or instance.
+3. Because we can assign to the delegate function from other classes.
+4. Func is a generic delegate. Func has certain input parameters and output parameter. 
+Syntax: Func<output parameter, input parameters> nameOfFunc;
+Action is a Func that return void. We use them because it is easy to use them then use delegates.
+5. Because is a reference to function. We need to assign function to it before it can be invoke.
+We need to check it doesn’t equal to null to make sure that function was assigned
+6. A delegate can be invoked using the Invoke() method or using the () operator, and there is no difference between them.
+7. It is a system in which each of its components has, or makes use of, little or no knowledge of the definitions of other separate components. Delegate help us to implement this idea because it let us invoke function or functions only with the knowledge of the parameters that passes to the function and the parameter that returns from the function.
+8. yes.
+9. the risk of using = is that other functions was assigned to the delegate. += solve this problem because it let us add function to the delegate.
+10. It is a short way to write  anonymous  function. Syntax: (vairible passes tp the function if any)=>{the function}.
+11. We can pass it to other function directly without the need the declare function and then pass it to the second function.  Or we can assign it to a delegate directly 
+12. Because we declare them in line and must of the time we need them once (and therefore we don't need to give them name)
+13. We use lambda expression wherever a delegate type is expected. The compiler knows the parameters from the delegate. 
+14. When this is the only the function do.
+15. We can pass lambda to function that accept delegate.
+
+

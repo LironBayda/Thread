@@ -1,0 +1,15 @@
+h.w. –delgate and event 2
+
+1. System.Delegate::Combine
+2.delegate is a class. GetInvocationList method Returns the invocation list of the delegate.
+3. void- public delegate void EventHandler(object sender, EventArgs e)
+4. event EventHandler eventName;
+5. EventArgs is the base class for classes containing event data. We can create our own eventArgas by adding <T>: event EventHandler<ourEventErgs> eventName. We sould add our EventArg if we want to pass data to the event.
+6. event is a special case of delegate. It can only be invoked from the class where it declares. If other classes subscribe to the event their event handler methods will be called when the publisher class raises the event.
+7. the difference between them:
+a. dlgete can be invoked from the class where it dclere and from other classes (if it isn’t private) . event can only invoked from the class where it declare.
+b. with dlegete we can use ethier += or = woth delgete we can use only +=
+c. An event is raised but cannot be passed as a method parameter. Dlegate can.
+8. because we want to know when the event happen- when it invoke
+9. we invoke event from function called onNameOfEvent();
+10. nameOfEventEventHandler 

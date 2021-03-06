@@ -1,0 +1,7 @@
+C:\Users\liron\Source\Repos\delegate_and_events1\delegate_and_events1\bin\Debug\delegate_and_events1.exe.config
+C:\Users\liron\Source\Repos\delegate_and_events1\delegate_and_events1\bin\Debug\delegate_and_events1.exe
+C:\Users\liron\Source\Repos\delegate_and_events1\delegate_and_events1\bin\Debug\delegate_and_events1.pdb
+C:\Users\liron\Source\Repos\delegate_and_events1\delegate_and_events1\obj\Debug\delegate_and_events1.csprojAssemblyReference.cache
+C:\Users\liron\Source\Repos\delegate_and_events1\delegate_and_events1\obj\Debug\delegate_and_events1.csproj.CoreCompileInputs.cache
+C:\Users\liron\Source\Repos\delegate_and_events1\delegate_and_events1\obj\Debug\delegate_and_events1.exe
+C:\Users\liron\Source\Repos\delegate_and_events1\delegate_and_events1\obj\Debug\delegate_and_events1.pdb

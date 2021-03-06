@@ -1,0 +1,7 @@
+C:\Users\liron\Source\Repos\delgate_and_event2\delgate_and_event2\obj\Debug\delgate_and_event2.csprojAssemblyReference.cache
+C:\Users\liron\Source\Repos\delgate_and_event2\delgate_and_event2\obj\Debug\delgate_and_event2.csproj.CoreCompileInputs.cache
+C:\Users\liron\Source\Repos\delgate_and_event2\delgate_and_event2\bin\Debug\delgate_and_event2.exe.config
+C:\Users\liron\Source\Repos\delgate_and_event2\delgate_and_event2\bin\Debug\delgate_and_event2.exe
+C:\Users\liron\Source\Repos\delgate_and_event2\delgate_and_event2\bin\Debug\delgate_and_event2.pdb
+C:\Users\liron\Source\Repos\delgate_and_event2\delgate_and_event2\obj\Debug\delgate_and_event2.exe
+C:\Users\liron\Source\Repos\delgate_and_event2\delgate_and_event2\obj\Debug\delgate_and_event2.pdb

@@ -1,0 +1,15 @@
+Thread Queue and lock-H.W
+
+1. When the thread is in runnable state it waiting to enter to the CPU and when the CPU free it become running. When thread completed we usually don’t won't it to run again (and we don’t won't a lot of threads waiting to be run because it use operating system resources)
+2. Not always. It takes time to create threads and to allocate resources. Therefore it is useful to use thread when we have long tasks.
+3. Thread pool is a collection of threads which can be used to perform number of task in background. Once thread completes its task then it sent to the pool to a queue of waiting threads, where it can be reused. This reusability avoids an application to create more threads and this enables less memory consumption.
+We don’t use thread pool when we need forehead threads, when we use a lot of threads or the thread suspend, wait or sleep for a long time (we have limited number of thread in the thread pool),  we require a thread to have a particular priority. We can use thread pool in all other cases.
+4. Because there is operation that can't happen in the same time like adding and removing item from the list
+5. We can use Enter.Monitor and Exit.Monitor or lock(ley)
+6. The advantages are: we create section that only one thread can enter. The disadvantages are that we could use Monitor. Enter and forget use Monitor.Exit
+7. With Enter.Monitor ו- Exit.Monitor 
+8. Critical section is a code that we don’t want more than one thread   executing it in the same time.
+9. a deadlock is a state in which each member of a group waits for another member, including itself, to take action for example we have two thread and two keys and we write a code that make each thread use one different key and then use the other one. When started, each thread would take a key and then would be stuck because the other key wouldn’t be free.
+10. ThreadSafe is when we have code that is safe to use with more than one thread (the code that can't execute in parallel will be locked)
+11.queue, stack, dictionary the advantage of using it: it thread safe
+The disadvantage: it takes more time to run and when we have simple task it is better to implement the code ourselves
