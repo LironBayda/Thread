@@ -1,6 +1,7 @@
 Answer multitheard
 
-1. We need multiprogramming to accelerate the time it takes to run some program. ( We can do several things in parallel instead of one after another and therefore the program will be quicker) and to run program that need to perform more than one thing in parallel (like a game with a ship that shooting to kill the enemy- the shoot, the ship movement, the things that happen to the enemy need to be in the same time)
+1. We need multiprogramming to accelerate the time it takes to run some program. 
+( We can do several things in parallel instead of one after another and therefore the program will be quicker) and to run program that need to perform more than one thing in parallel (like a game with a ship that shooting to kill the enemy- the shoot, the ship movement, the things that happen to the enemy need to be in the same time)
 
 2. A process is the instance of computer program that is being executing by one or many thread. It contains the program code and its activity. 
 Thread is the smallest sequence of program instructions that can be managed independently by a scheduler, which is typically a part of the operating system.
@@ -17,7 +18,8 @@ somethread.IsBackground = true;
 Start- Causes the operating system to change the state of the current instance to Running.
 Abort- the  method is used for destroying threads
 Join-join two threading. Make one thread wait to the second thread 
-Yield- Causes the calling thread to yield execution to another thread that is ready to run on the current processor. The operating system selects the thread to yield to.
+Yield- Causes the calling thread to yield execution to another thread that is ready to run on the current processor. The operating system selects
+the thread to yield to.
 
 8. it depends on the number of Execution units- A core like ARMv8l with 1 Execution unit per core can run only one Thread, A core with 2 Execution Units like AMD Ryzen or Intel Core can run 2 Threads per core but a core like Intel Xeon Phi 7290F with 4 Execution units can run 4 threads per core.
 
